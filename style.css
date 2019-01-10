@@ -1,0 +1,636 @@
+/*
+Theme Name:   	ARETE
+Theme URI:    	http://em-com.pl
+Author:       	Andrzej 'Mąka' Mącznik
+Author URI:		http://em-com.pl
+Description:  	Theme for ARETE
+Version:      	1.0
+
+COPYRIGHT BY www.em-com.pl - All right reserved!
+Contact: info@em-com.pl
+*/
+
+/*** IMPORT FONTS ***/
+@import url("css/bootstrap.min.css");
+@import url("css/fonts.css");
+
+/*** GENERAL ***/
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	background:#fff;
+	margin: 0;
+	padding: 0;
+	color:#4e4b48;
+    box-sizing: border-box;
+}
+:focus {
+	outline: 0;
+}
+a {
+	text-decoration: none;
+	color:#83af2d;
+}
+a:hover {
+	text-decoration: none;
+	color:#709527;
+}
+.col-md-12 {
+    box-sizing: border-box;
+}
+
+/*** MENU ***/
+
+img.logo_main {
+    float: left;
+    width: 195px;
+    margin-top: -10px;
+}
+a.menu-link.main-menu-link {
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+a.menu-link.main-menu-link:hover {
+    color: #ea5a14 !important;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+a.navbar-brand {
+	padding-top:5px !important;
+}
+.navbar {
+	min-height: 120px;
+}
+.navbar-nav>li>a {
+	line-height: 50px;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+nav.navbar.navbar-default {
+	margin-bottom:0px;
+}
+.main {
+    float: left;
+    width: 100%;
+    height: 650px;
+}
+.main_background {
+    float: left;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    height: 650px;
+    margin-top: -650px;
+    margin-bottom: 50px;
+}
+img.image_main {
+    width: 100%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+}
+h2.header_main_image {
+    position: absolute;
+    left: 20px;
+    color: #fff;
+    top: 340px;
+    font-size: 50px;
+    width: 98%;
+}
+p.under_text_main_page {
+    position: absolute;
+    font-size: 30px;
+    top: 470px;
+    color: #fff;
+    left: 20px;
+    max-width: 560px;
+}
+.text_info_up {
+    width: 500px;
+    height: 50px;
+    float: right;
+    background-color: #20303d;
+    color: #fff;
+    border-bottom-left-radius: 20px;
+    padding-left: 10px;
+    line-height: 50px;
+    margin-top: -25px;
+}
+nav.navbar.navbar-default {
+    float: left;
+    width: 99%;
+    margin-top: -40px;
+}
+ul#menu-menu {
+    margin-top: 35px;
+}
+.info_top {
+    float: left;
+    margin-right: 20px;
+    font-size:12px;
+}
+i.fa {
+    padding-right: 10px;
+    float: left;
+    margin-top: 18px;
+}
+
+/*** ABOUT MAIN PAGE ***/
+
+.col-md-6.col-xs-12.col-sm-12 {
+    box-sizing: border-box;
+}
+
+img.border_img {
+    border: 10px solid #ea5a14;
+    margin-top: 105px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 85%;
+}
+.border_image {
+    float: left;
+}
+h3.about_header_main_page_under {
+    font-size: 34px;
+    margin-top: -15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #ea5a14;
+}
+h3.about_header_main_page {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 1px;
+}
+body > div.container > div > div:nth-child(2) > p:nth-child(4) {
+    font-size: 14px;
+}
+.about_full {
+    float: left;
+    width: 100%;
+    margin-top:50px;
+}
+.about_best {
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+}
+i.fa.fa-user {
+    font-size: 55px;
+    color: #ea5a14;
+}
+p.one {
+    float: left;
+    margin-bottom: 0px;
+    font-size: 18px;
+    width: 50%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+p.two {
+    float: left;
+    font-size: 27px;
+    margin-top: 2px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.col-md-8.col-xs-12.col-sm-12 {
+    box-sizing: border-box;
+}
+.col-md-4.col-xs-12.col-sm-12 {
+    box-sizing: border-box;
+}
+i.fa.fa-balance-scale, i.fa.fa-clock-o {
+    font-size: 55px;
+    color: #ea5a14;
+}
+.full_break {
+    float: left;
+    width: 100%;
+}
+.background_black {
+    width: 100%;
+    float: left;
+    height: 450px;
+    margin-top: -450px;
+    background-color: rgba(0,0,0,0.8);
+}
+.tags_g {
+    float: left;
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin-top: 75px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/*** slider about ***/
+
+h2.slider_header_about {
+    width: 100%;
+    float: left;
+    font-size: 35px;
+    color: #ea5a14;
+    text-align: center;
+    margin-bottom:5px;
+}
+p.slider_text_about {
+    width: 450px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: 0px;
+    float: left;
+    color: #000;
+    font-weight: 600;
+}
+.item.active {
+    display: block;
+}
+.item {
+    display: none;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 30% !important;
+    float: left;
+    margin-right: 20px;
+    height: 40px;
+    padding-left: 10px;
+}
+input.wpcf7-form-control.wpcf7-text {
+    width: 31%;
+    padding-left: 10px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+select.wpcf7-form-control.wpcf7-select {
+    width: 48.1%;
+    float: left;
+    height: 47px;
+    margin-right: 21px;
+    margin-bottom: 30px;
+}
+#wpcf7-f40-o1 > form > p:nth-child(7) > span > input {
+    width: 35%;
+    margin-right: 20px;
+    float: left;
+}
+#wpcf7-f40-o1 > form > p:nth-child(8) > label > span > input {
+    width: 59%;
+    float: left;
+    margin-bottom: 20px;
+}
+textarea.wpcf7-form-control.wpcf7-textarea {
+    width: 97%;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 100px;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    width: 100px;
+    height: 40px;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ea5a14;
+    border: 1px solid #ea5a14;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+h2.zapytanie_ofertowe {
+    width: 312px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #ea5a14;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+p.form_ularz {
+    width: 300px;
+    text-align: center;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.linia {
+    background-color: #ea5a14;
+    width: 100px;
+    height: 1.5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+}
+
+
+
+/*** FOOTER ***/
+
+.col-md-5.col-xs-12.col-sm-12, .col-md-2.disappear {
+    box-sizing: border-box;
+}
+a.about_bottom_button.hvr-sweep-to-top {
+    color: #fff;
+}
+img.logo_main.bottom_l {
+    margin-left: 0px;
+}
+.myfooter {
+    width: 100%;
+    float: left;
+    height: 600px;
+    background-color: #20303d;
+    margin-top:50px;
+}
+.up {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ea5a14;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+i.fa.fa-arrow-up {
+    font-size: 30px;
+    color: #ea5a14;
+    margin-top: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-37%);
+}
+.menu_bottom {
+    float: left;
+    width: 100%;
+}
+#bs-example-navbar-collapse-2 {
+    float: left;
+    width: 100%;
+    margin-right: 0px !important;
+    padding-right: 0px;
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+#bs-example-navbar-collapse-2 > div {
+    width: 100%;
+    float: left;
+}
+#bs-example-navbar-collapse-2 > .menu-menu-container > #menu-menu-1 {
+    width: auto;
+    float: left !important;
+    margin-right: 0px !important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ul#menu-menu-1 > li > a {
+    color: #ea5a14;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+#bs-example-navbar-collapse-2 > .menu-menu-container > #menu-menu-1 > li > a:hover {
+    background-color:transparent; !important;
+    color:#fff !important;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.arrow {
+    width: 100%;
+    float: left;
+}
+i.fa.fa-comments {
+    margin-right: 15px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 16px;
+}
+.box_bottom {
+    float: left;
+    width: 100%;
+    padding-left: 15px;
+    color: #fff;
+}
+a.link_zapytanie {
+    float: left;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ea5a14;
+}
+
+.footer_bottom_zapytanie {
+    margin-top:50px;
+    float: left;width:100%;
+}
+.phone_bottom {
+    color:#fff !important;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.phone_bottom:hover {
+    color:#ea5a14 !important;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+p.call_header {
+    color: #fff;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.call_kancelaria {
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+a.about_bottom_button.hvr-sweep-to-top {
+    padding: 10px 15px;
+    border: 1px solid #ea5a14;
+    margin-top: 10px;
+}
+
+p.about_bottom_text {
+    margin-top: 5px;
+    color: #fff;
+}
+h2.about_bottom_header {
+    color: #fff;
+    margin-bottom: 0px;
+}
+a.footer_bottom_links {
+    color: white;
+    float: left;
+    width: 100%;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+a.footer_bottom_links:hover {
+    color:#ea5a14 !important;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.background_header_subpages {
+    background-color: rgba(0,0,0,0.7);
+    position: relative;margin-top:-300px;
+    width: 100%;
+    height:350px;
+    margin-top: -200px;
+    width: 100%;
+    height: 201px;
+    float: left;
+}
+
+.copyright{
+    width:100%;
+    position: relative;
+    float: left;
+    height: 50px;
+}
+.left-copyright, .right-copyright {
+    float: left;
+    width: 49.93%;
+    position: relative;
+}
+img.realizacja-img {
+    float: right;
+    width: 100px;
+    position: relative;
+    padding-right: 50px;
+    margin-left: 10px;
+    margin-top: -4px;
+}
+p.made-text {
+    float: right;
+}
+
+/*** ZAPYTANIE HOVER ***/
+
+
+.hvr-sweep-to-top {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.hvr-sweep-to-top:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ea5a14;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active  {
+    color: white;
+}
+.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+}
+
+/*** PAGES ***/
+
+.subpages_header {
+    float: left;
+    width: 100%;
+    height: 200px;
+    background: url('http://arete.em-com.pl/wp-content/uploads/2018/01/city.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    top:0;
+}
+
+.background_header {
+    background-color
+}
+h2.subpage_header_title {
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin: 0;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 32px;
+    position: absolute;
+    z-index: 1;
+}
+#wpcf7-f43-o1 > form > p:nth-child(2) > label > span > input {
+    width: 45.3% !important;
+}
+
+#wpcf7-f43-o1 > form > p:nth-child(3) > label > span > input {
+    width: 45.2% !important;
+    float: left;
+    margin-right: 0px !important;
+}
+#wpcf7-f43-o1 > form > p:nth-child(4) > label > span > input {
+    width: 97% !important;
+}
+.contact_page_doit {
+    width: 100%;
+    float: left;
+    height: 100px;
+    background-color: rgba(12,11,12,0.9);
+}
+body > div.contact_page_doit > h2 {
+    margin-top: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
